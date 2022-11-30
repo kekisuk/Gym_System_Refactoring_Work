@@ -7,7 +7,6 @@
 #include "excluir.h"
 #include "atualizar.h"
 
-
 void menu_opcoes();
 void cadastrar_cliente();
 void buscar_cliente();
@@ -16,11 +15,6 @@ void atualizar_cliente();
 void menu_modalidades();
 char imprime_menus();
 
-
-/*
-	Função menu está num laço de repetição, escolhe uma das opções mostradas e é feito a chamada de função.
-	Usamos o "switch" como estrutura condicional. A funçãõ é encerrado quando o usuario digitar 0.
-*/
 void menu_opcoes()
 {
     setlocale(LC_ALL, "Portuguese");
